@@ -93,8 +93,8 @@ function draw() {
 function mouseDragged()
 {
 
-//	Matter.Body.setPosition
-//      (stone.body, {x:mouseX, y:mouseY}) 
+	Matter.Body.setPosition
+      (stone.body, {x:mouseX, y:mouseY}) 
 
 //	Matter.Body.Position
 //      (stone.body, {x:mouseX, y:mouseY}) 
@@ -110,7 +110,7 @@ function mouseDragged()
 function mouseReleased()
 {
 //	launcher();
-//	launcher.fly();
+	launcher.fly();
 //	launcherfly();
 //	launcher.fly;
 }
